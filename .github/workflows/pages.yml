@@ -1,4 +1,4 @@
-name: Deploy WebGL release
+name: Deploy web game
 on:
   push:
     branches: [main]
@@ -23,8 +23,6 @@ jobs:
         run: |
           mkdir _site
           cp index.html .nojekyll _site/
-          cp -r Build TemplateData _site/
-          if [ -d StreamingAssets ]; then cp -r StreamingAssets _site/; fi
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

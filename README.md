@@ -1,11 +1,13 @@
 # SPIRE / ONE STRIKE
 
-WebGL release files only.
+Portrait one-finger dash game. Hold and drag back to slow time and aim, release to dash
+through enemies. Drag again mid-dash to chain the next strike.
 
-Current release: user-built WebGL player from 2026-10-20, with serialized runtime shader material references. The page uses a responsive 9:16 canvas.
+Play: https://hkcmadao.github.io/spire-one-strike/
 
-Pushes to main automatically deploy through GitHub Actions to GitHub Pages. Manual deployment is also available in the Actions tab. Repository Settings → Pages must use GitHub Actions as the build source.
+This repository holds the playable build only: `index.html` is a single self-contained file
+(three.js web version, all code and assets inlined). Pushes to main deploy to GitHub Pages
+through GitHub Actions.
 
-Build files use Unity's .unityweb decompression fallback and relative URLs for project-site hosting. Runtime gameplay and shader verification are pending user confirmation.
-
-Play: https://HKCMADAO.github.io/spire-one-strike/
+Outside the Riffle app the game is fully playable; online rankings show as unavailable.
+Earlier commits contain the previous Unity WebGL build.
