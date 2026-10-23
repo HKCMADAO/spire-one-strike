@@ -1,7 +1,8 @@
 # SPIRE / ONE STRIKE
 
 Portrait one-finger dash game. Hold and drag back to slow time and aim, release to dash
-through enemies. Drag again mid-dash to chain the next strike.
+through every enemy in your path. The faint band around the aim line shows exactly what
+the dash will hit. Climb 15 floors through shifting skies to the Rift Giant, then endless.
 
 Play: https://hkcmadao.github.io/spire-one-strike/
 
